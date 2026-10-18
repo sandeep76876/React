@@ -10,6 +10,7 @@
         }
     },
     [React.createElement("h1",{style:{color:"blue"}},"Hello world from h1"),
-    React.createElement("h2",{},"hello world from h2")])
+    React.createElement("h2",{},"hello world from h2"),
+     React.createElement("h3",{},"This is h3 from react")])
 const root=ReactDOM.createRoot(document.getElementById("root"))
 root.render(heading)
