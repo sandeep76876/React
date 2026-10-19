@@ -6,20 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world from HTML</h1>
-    <div id="con"></div>
     <div id="root"></div>
-    <script>
-        const div=document.getElementById('con');
-        const matter=document.createElement('h1');
-        matter.innerHTML=`Hello world from inner HTML` 
-        div.innerHTML=`<h1> hello world from js </h1>`
-        div.appendChild(matter)
-    </script>
-
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <script src="./app.jsx"></script>
+    <script type= "module" src="./app.jsx"></script>
 </body>
 </html>
