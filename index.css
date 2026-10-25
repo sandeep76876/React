@@ -1,0 +1,66 @@
+.header {
+display: flex;
+justify-content: space-between;
+border: 1px solid black;
+}
+.logo{
+    width: 80px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.nav-bar{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.body{
+    margin: 20px;
+    display: block;
+}
+.nav-bar > a{
+    font-size: 24px;
+    text-decoration-line: none;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.search-btn{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+}
+.card{
+    height: 240px;
+    width: 150px;
+    border: 1px solid black;
+    padding: 5px;
+    display: block;
+    justify-content: center;
+}
+.res-logo{
+    width:140px;
+    border-radius: 50%;
+    display: block;
+    padding-left: 2.5px;
+    margin-top: 3px;
+}
+.name-rating{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rating{
+    height: 22px;
+    padding: 1px;
+    background-color: rgb(2, 64, 29);
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.res-cards{
+    display: flex;
+    padding: 20px;
+}
+
