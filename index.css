@@ -33,7 +33,6 @@ border: 1px solid black;
     margin-left: 10px;
 }
 .card{
-    height: 240px;
     width: 150px;
     border: 1px solid black;
     padding: 5px;
@@ -42,8 +41,7 @@ border: 1px solid black;
 }
 .res-logo{
     width:140px;
-    border-radius: 50%;
-    display: block;
+    height:150px;
     padding-left: 2.5px;
     margin-top: 3px;
 }
