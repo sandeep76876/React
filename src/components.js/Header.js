@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import { LOGO_URL } from "../utils.js/constants"
 const Header= ()=>{
     return (
@@ -6,10 +7,10 @@ const Header= ()=>{
                 <img className="logo" src={LOGO_URL} alt="logo" />
              </div>
              <div className="nav-bar">
-                <a href="">Home</a>
-                <a href="">Cart</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
+                <Link to="/">Home</Link>
+                <Link to="/cart">Cart</Link>
+                <Link to="/about">About Us</Link>
+                <Link to="/contact">Contact Us</Link>
              </div>
         </div>
     )

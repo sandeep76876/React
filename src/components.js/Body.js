@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import RestaurantCard from "./RestaurantCard.js"
 import { useEffect, useState } from "react"
 
@@ -46,7 +47,9 @@ return (
      <div className="res-cards">
         {
         filterList.map((restaurant) => (
-            <RestaurantCard key={restaurant.card.card.info.id} resName={restaurant.card.card.info.name} rating={restaurant.card.card.info.avgRating} imglink={ "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+restaurant.card.card.info.cloudinaryImageId} address={restaurant.card.card.info.locality}/>
+           < Link to={"/restaurants/"+restaurant.card.card.info.id} key={restaurant.card.card.info.id}>
+            <RestaurantCard  resName={restaurant.card.card.info.name} rating={restaurant.card.card.info.avgRating} imglink={ "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+restaurant.card.card.info.cloudinaryImageId} address={restaurant.card.card.info.locality}/>
+            </Link>
         ))
         }
      </div>

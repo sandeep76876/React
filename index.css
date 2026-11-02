@@ -23,6 +23,10 @@ border: 1px solid black;
     font-size: 24px;
     text-decoration-line: none;
 }
+a{
+    text-decoration:none;
+    color: black;
+}
 .search-container{
     display: flex;
     justify-content: center;
@@ -34,10 +38,16 @@ border: 1px solid black;
 }
 .card{
     width: 150px;
+    height: 300px;
     border: 1px solid black;
     padding: 5px;
     display: block;
     justify-content: center;
+    margin: 2px;
+    
+}
+.card:hover {
+  transform: translateY(-10px);
 }
 .res-logo{
     width:140px;
@@ -61,4 +71,11 @@ border: 1px solid black;
     display: flex;
     padding: 20px;
 }
-
+.usercard{
+    border: 2px solid black;
+    width: 300px;
+    background-color: #f0f0f0;
+}
+.userProfile{
+    width: 150px;
+}
